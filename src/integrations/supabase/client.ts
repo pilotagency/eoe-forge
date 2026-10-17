@@ -6,8 +6,8 @@ import type { Database } from './types';
  *  hand needs the SAME value the client uses: reading it from
  *  `import.meta.env` instead is how /precons broke, since that variable is
  *  not set in the deployed build. */
-export const SUPABASE_URL = "https://udnaflcohfyljrsgqggy.supabase.co";
-const SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVkbmFmbGNvaGZ5bGpyc2dxZ2d5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ4NjAyMDAsImV4cCI6MjA3MDQzNjIwMH0.SrKLHsJmBfXHmPlVirfglxJXkUMly4bKhjzFkx7ew5g";
+export const SUPABASE_URL = "https://mtg-api.132-145-25-143.sslip.io";
+const SUPABASE_PUBLISHABLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlzcyI6InN1cGFiYXNlIiwiaWF0IjoxNzkyMjU5ODY2LCJleHAiOjE5NDk5Mzk4NjZ9.khlyoOtKCFiYZ3rNHOvlv1iJmzjDemLCa3ZGU47kQ0Y";
 
 // Import the supabase client like this:
 // import { supabase } from "@/integrations/supabase/client";

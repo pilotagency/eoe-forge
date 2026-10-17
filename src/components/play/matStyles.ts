@@ -455,7 +455,7 @@ const plate =
  * is about card images; this is a background nobody is being asked to read.
  * ------------------------------------------------------------------ */
 
-const ART_BASE = 'https://udnaflcohfyljrsgqggy.supabase.co/storage/v1/object/public/art';
+const ART_BASE = 'https://mtg-api.132-145-25-143.sslip.io/storage/v1/object/public/art';
 
 /**
  * One painted mat, placed to cover whatever shape the seat turns out to be.
